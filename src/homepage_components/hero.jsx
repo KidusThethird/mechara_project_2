@@ -14,7 +14,7 @@ import {
 
 export default function Hero() {
   return (
-    <div>
+    <div className="relative">
       <Carousel
         opts={{
           align: "start",
@@ -47,6 +47,22 @@ export default function Hero() {
           </CarouselItem>
         </CarouselContent>
       </Carousel>
+
+      <div className="absolute top-0 h-full w-full flex ">
+        <div className="my-auto  w-3/4   h-fit mx-auto space-y-9">
+          <div>
+            <h1 className="text-white text-7xl font-bold">
+              Welcome to Mechara City
+            </h1>
+            <h1 className="text-white text-xl py-3">
+              Mechara City Adminstration
+            </h1>
+          </div>
+          <button className="text-white text-xl bg-blue-800 rounded-3xl px-5 py-3">
+            Discover More
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
