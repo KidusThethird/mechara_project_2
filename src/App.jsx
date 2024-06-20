@@ -1,3 +1,4 @@
+import Footer from "./common_components/footer";
 import Navbar from "./common_components/navbar";
 import Hero from "./homepage_components/hero";
 import ImageList from "./homepage_components/image_list";
@@ -14,6 +15,7 @@ function App() {
       <ImageList />
       <Numbers />
       <MapSection />
+      <Footer />
     </div>
   );
 }
