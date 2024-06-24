@@ -48,7 +48,7 @@ export default function Navbar() {
             <NavigationMenuList className="">
               <NavigationMenuItem className="my-auto bg-white">
                 <NavigationMenuTrigger className=" my-auto h-fit bg-white">
-                  <h1 className="text-lg font-normal bg-white hover:text-blue-700">
+                  <h1 className="text-lg font-normal  hover:text-blue-700">
                     City Adminstration
                   </h1>
                 </NavigationMenuTrigger>
