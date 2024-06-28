@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex-col space-y-3">
-          <h1 className="my-6 text-xl font-semibold ">Explore</h1>
+          <h1 className="my-6 text-xl font-semibold  ">Explore</h1>
           <div>
             <a href="">Deputy Mayors</a>
           </div>
