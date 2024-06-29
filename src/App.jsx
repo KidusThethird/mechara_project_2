@@ -5,6 +5,7 @@ import ImageList from "./homepage_components/image_list";
 import MapSection from "./homepage_components/mapsection";
 import MayorInfo from "./homepage_components/mayor_info";
 import Numbers from "./homepage_components/numbers";
+import About from "./pages/about";
 import Cabinets from "./pages/cabinets";
 import Home from "./pages/home";
 
@@ -18,9 +19,9 @@ function App() {
     case "/cabinets":
       Component = Cabinets;
       break;
-    // case "/services":
-    //   Component = Services;
-    //   break;
+    case "/about":
+      Component = About;
+      break;
     // case "/help":
     //   Component = HelpSection;
     //   break;

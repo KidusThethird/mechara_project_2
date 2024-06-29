@@ -31,7 +31,7 @@ export default function Navbar() {
           <img src={logo} className="w-24" alt="" />
         </div>
         <div className="justify-between space-x-12 flex my-auto text-lg">
-          <a href="" className="hover:text-blue-700 my-auto">
+          <a href="/" className="hover:text-blue-700 my-auto">
             Home
           </a>
           <a href="" className="hover:text-blue-700 my-auto">
@@ -61,6 +61,9 @@ export default function Navbar() {
                       </div>
                       <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href=""> Deputy Meyors</a>
+                      </div>
+                      <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
+                        <a href="/about">About Us</a>
                       </div>
                       <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href="">Projects</a>
