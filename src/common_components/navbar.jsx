@@ -54,26 +54,26 @@ export default function Navbar() {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <NavigationMenuLink>
-                    <div className="w-[200px]">
-                      <div className=" flex w-full">
+                    <div className="w-[200px] py-3  ">
+                      <div className=" flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a className=" " href="">
                           Cabinet Members
                         </a>
                       </div>
-                      <div>
+                      <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href=""> Deputy Meyors</a>
                       </div>
-                      <div>
+                      <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href="">Projects</a>
                       </div>
-                      <div>
+                      <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href="">Our History</a>
                       </div>
 
-                      <div>
+                      <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href="">Events</a>
                       </div>
-                      <div>
+                      <div className="flex w-full hover:text-white hover:bg-blue-800 px-7 py-3">
                         <a href="">Publications</a>
                       </div>
                     </div>
