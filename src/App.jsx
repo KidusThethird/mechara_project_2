@@ -5,16 +5,36 @@ import ImageList from "./homepage_components/image_list";
 import MapSection from "./homepage_components/mapsection";
 import MayorInfo from "./homepage_components/mayor_info";
 import Numbers from "./homepage_components/numbers";
+import Cabinets from "./pages/cabinets";
+import Home from "./pages/home";
 
 function App() {
+  let Component;
+
+  switch (window.location.pathname) {
+    case "/":
+      Component = Home;
+      break;
+    case "/cabinets":
+      Component = Cabinets;
+      break;
+    // case "/services":
+    //   Component = Services;
+    //   break;
+    // case "/help":
+    //   Component = HelpSection;
+    //   break;
+    // case "/contact":
+    //   Component = Contact;
+    //   break;
+  }
+
   return (
-    <div>
+    <div className="w-full ">
       <Navbar />
-      <Hero />
-      <MayorInfo />
-      <ImageList />
-      <Numbers />
-      <MapSection />
+      <div className="pt-44 pb-6">
+        <Component />
+      </div>
       <Footer />
     </div>
   );
