@@ -49,16 +49,16 @@ export default function Hero() {
       </Carousel>
 
       <div className="absolute top-0 h-full w-full flex ">
-        <div className="my-auto  w-3/4   h-fit mx-auto space-y-9">
+        <div className="my-auto  w-3/4   h-fit mx-auto space-y-4 xmd:space-y-9">
           <div>
-            <h1 className="text-white text-7xl font-bold">
+            <h1 className="text-white bg-blue-800 w-fit bg-opacity-25 shadow-lg  text-2xl sm:text-4xl xmd:text-7xl font-bold">
               Welcome to Mechara City
             </h1>
             <h1 className="text-white text-xl py-3">
               Mechara City Adminstration
             </h1>
           </div>
-          <button className="text-white text-xl bg-blue-800 rounded-3xl px-5 py-3">
+          <button className="text-white sm:text-xl bg-blue-800 rounded-3xl px-1 sm:px-3 py-1 xmd:px-5 xmd:py-3">
             Discover More
           </button>
         </div>

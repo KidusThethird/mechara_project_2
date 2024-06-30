@@ -4,8 +4,8 @@ import Image from "../assets/images/img1.jpeg";
 export default function MayorInfo() {
   return (
     <div>
-      <div className="grid grid-cols-2 my-8">
-        <div className="mx-7 my-auto text-lg">
+      <div className="lmd:grid grid-cols-2 my-8">
+        <div className="mx-7 my-auto text-lg py-6">
           <h1 className="text-3xl text-gray-700 font-semibold pb-6">
             Message from the Mayor
           </h1>
