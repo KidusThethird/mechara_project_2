@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="w-full ">
       <Navbar />
-      <div className="pt-44 pb-6">
+      <div className="pt-12 xmd:pt-44 pb-6">
         <Component />
       </div>
       <Footer />
