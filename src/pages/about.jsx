@@ -9,7 +9,7 @@ export default function About() {
           Welcome to the Office Of the Mayor Of Mechara
         </h1>
       </div>
-      <div className="grid grid-cols-3 mx-10">
+      <div className="lmd:grid grid-cols-3 mx-10 space-y-4 lmd:space-y-0  text-center lmd:text-left">
         <div className="mx-auto bg-gray-100 p-10 rounded-xl hover:bg-gray-300 cursor-pointer duration-200">
           <Eye
             size={100}
