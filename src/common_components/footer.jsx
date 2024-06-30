@@ -14,11 +14,11 @@ import { cn } from "@/lib/utils";
 export default function Footer() {
   return (
     <div className="pt-20  bg-blue-900 text-gray-200">
-      <div className="w-full flex space-x-5 justify-between px-10">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 xmd:grid-cols-4 space-x-5  px-10">
         <div className="w-fit  ">
           <img
             src={logo}
-            className="w-48 my-auto bg-white rounded-full"
+            className="w-24 sm:w-48 my-auto bg-white rounded-full"
             alt=""
           />
           <div className="space-x-4 flex my-auto w-full py-5 ">
